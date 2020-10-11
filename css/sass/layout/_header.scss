@@ -1,0 +1,22 @@
+//This file is for create your style with relation on space of header
+#container-header {
+    @include padding-bloc;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    background: white;
+    border-radius: 7px 7px 0 0;
+    h1 {
+        color: $primary-color;
+        font-weight: 700;
+        font-size: 25.3px;
+    }
+}
+h2 {
+    color: $secondary-color;
+    font-size: 19px;
+}
+.text {
+    opacity: 0.3;
+    font-size: 18px;
+    line-height: 1.7;
+}

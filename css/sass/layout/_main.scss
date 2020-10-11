@@ -1,0 +1,54 @@
+//This file is for create your style with relation on space of main
+
+#container-bothbottom {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid darken($primary-color, 3%);
+    border-radius: 0 0 8px 8px;
+    #container-subscription {
+        @include padding-bloc;
+        background-color: $primary-color;
+        color: white;
+        width: 350px;
+        border-radius: 0 0 0 7px;
+    }
+}
+#container-about {
+    @include padding-bloc;
+    background: lighten($primary-color, 3%);
+    border-radius: 0 0 7px;
+    width: 350px;
+}
+.per-month {
+    p {
+        display: flex;
+        align-items: center;
+    }
+}
+.dols {
+    font-size: 2.3rem;
+    opacity: 1;
+    + .pm {
+        opacity: 0.4;
+    }
+}
+.title-box {
+    color: white;
+    padding-left: 26px;
+}
+.sentence {
+    opacity: 0.6;
+}
+.why-title {
+    font-size: 1.3rem;
+}
+#container-about-line {
+    margin-top: 30px;
+}
+.about-line {
+    opacity: 0.5;
+    line-height: 8px;
+}
+.title-box-second {
+    color: white;
+}

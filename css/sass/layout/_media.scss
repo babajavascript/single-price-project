@@ -1,0 +1,21 @@
+@media screen and (max-width: 1024px) {
+    #container {
+        width: 400px;
+        transform: translateY(0%);
+        #container-bothbottom {
+            display: flex;
+            flex-wrap: wrap;
+            #container-subscription {
+                border-radius: 0 0 0 0;
+                padding-left: 13px;
+            }
+        }
+    }
+    #container-about {
+        border-radius: 0 0 7px 7px;
+        padding-left: 36px;
+    }
+    .btn {
+        width: 270px;
+    }
+}
